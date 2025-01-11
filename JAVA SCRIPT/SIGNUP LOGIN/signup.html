@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="assests/signup.css">
+</head>
+<body>
+
+    <div class="signup">
+        <div class="signup1">
+            <br><br>
+            <h1>Signup</h1>
+            <br><br><br><br>
+            
+            <b><label for="">Enter Your Name</label></b>
+            <br>
+            <input type="text" id="name" required>
+            <br><br>
+            <b><label for="">Enter Email</label></b>
+            <br>
+            <input type="email" id="email" required>
+            <br><br>
+            <b> <label for="">Enter Password</label></b>
+            <br>
+            <input type="password" id="password" required>
+
+
+            <br><br>
+
+            
+            <button onclick="signup()">Sign Up</button>
+            <br><br><br>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </div>
+
+    <script>
+        function signup() {
+            
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+
+            
+            if (name === "" || email === "" || password === "") {
+                alert("Please fill in all fields.");
+                return; 
+            }
+
+            
+            localStorage.setItem("username", name);
+            localStorage.setItem("useremail", email);
+            localStorage.setItem("userpassword", password);
+
+            
+            alert("Signup successful!");
+
+            
+            window.location.href = "login.html";
+        }
+    </script>
+
+</body>
+</html>

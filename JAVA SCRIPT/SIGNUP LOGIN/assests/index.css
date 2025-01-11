@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.div1{
+    background-color:	#F0F0F0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    height: 100px ;
+    width: 500px;
+    border: solid;
+}
+
+
+.div2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: darkgray;
+    height: 40px;
+    width: 90px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.div2 p a{
+    text-decoration: none;
+} 

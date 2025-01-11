@@ -1,0 +1,266 @@
+*{
+    margin:0%;
+    padding:0%;
+    
+
+}
+
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(2, 128, 2);
+    display: flex;
+    text-align: center;
+    position: fixed;
+}
+
+
+.search{
+    height: 55px;
+    width: 35%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+
+.box1{
+    margin: 1%;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+}
+
+
+
+
+.box2{
+    margin: 1%;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+}
+
+
+.box3{
+    margin: 1%;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+}
+
+
+/* navbar end */
+
+
+
+.navbar2{
+    margin-top: 80px;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(0, 102, 0);
+    position: fixed;
+    display: flex;
+    
+    list-style: none;
+    
+}
+
+
+
+li a{
+    display: flex;
+    
+    list-style: none;
+    text-decoration: none;
+    margin: 20px;
+    
+}
+
+
+
+
+
+/* NAVBAR 2 END */
+
+
+
+
+
+
+.fix{
+    height: 90px;
+    width: 100%;}
+
+
+
+
+
+.mainpagebackground{
+    
+    height: 817px;
+    background-image: url(../img/amazon\ background.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+.fix2{
+height: 300px;
+width: 100%;
+
+
+}
+
+
+
+.mainpage1{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+
+    
+}
+
+
+
+
+.mainbox1{
+    height: 100%;
+    width: 30%;
+    margin: 1%;
+    background-color: white;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+
+
+.mainbox1 a{
+    color: cadetblue;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+.backgroundg{
+background-color: gray;
+}
+
+
+
+
+
+
+
+.mar{
+    
+    margin: 10px;
+}
+
+
+
+.mainpage2{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+.essentialpagebackground{
+    
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-image: url(../img/essential\ for\ gamers.png);
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+
+
+
+
+.gamingaccessories{
+    margin: 10px;
+    height: 350px;
+    width: 1580px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+
+
+.gamingaccessoriesbox1{
+    height: inherit;
+    width: 306px;
+    
+    
+}
+
+
+
+
+
+.fix3{
+    height: 150px;
+    width: 100%;
+}
+
+
+
+
+
+.backtotop{
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.backtotop li a {
+   size: 10px;
+}

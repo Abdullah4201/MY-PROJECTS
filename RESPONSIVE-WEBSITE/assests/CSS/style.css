@@ -1,0 +1,34 @@
+.navbar{
+    background: linear-gradient(90deg, rgba(0,26,36,1) 0%, rgba(9,26,121,1) 35%, rgba(149,0,255,1) 100%);
+}
+
+.otherimg{
+    height: 300px;
+    width: 300px;
+}
+
+
+.pimg{
+    height: 200px;
+    width: 200px;
+}
+
+
+.indeximg{
+    height: 100px;
+    width: 120px;
+}
+
+
+.buttona{
+    height: 18px;
+    width: 50px;
+    text-align: center;
+}
+
+
+.buttona a{
+    
+    text-decoration: none;
+    color: white;
+}
